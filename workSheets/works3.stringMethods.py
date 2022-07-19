@@ -1,0 +1,15 @@
+message = "Hello There. My name is Furkan Kurt"
+name1 = " Furkan  "
+print(message.lower())
+print(message.upper())
+print(message.title())
+print(message.capitalize())
+print(message.split())
+print(name1.strip())
+print("-".join(message.split()))
+print(message.find("There"))
+print(message.find("Theree"))
+print(message.startswith("Hello"))
+print(message.endswith("Furkan"))
+print(message.replace("Furkan", "Hakan"))
+print(message.center(50, "-"))
