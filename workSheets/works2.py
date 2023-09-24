@@ -10,7 +10,7 @@ print("Website without www: "+ websiteWithoutWWW)
 websiteWithoutCom = website[:len(website)-3]
 print("Website without com: "+ websiteWithoutCom)
 
-withoutFirst15ofCourse = course[17:]
+withoutFirst15ofCourse = course[15:]
 print("Without first 15 of course: "+ withoutFirst15ofCourse)
 
 withoutLast15ofCourse = course[:len(course)-15]
@@ -27,5 +27,3 @@ print("Three times: "+threeTimes * 3)
 
 reverseOfCourse = course[::-1]
 print("Reverse of course: "+reverseOfCourse)
-
-print("furkan")
